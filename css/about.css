@@ -1,0 +1,28 @@
+.banner-display-container {
+  height: 350px;
+  /* background-image: url("../img/North%20Oceans_%20Effectively%20Handling%20Your%20Freight%20Forwarding%20Operations.jpg"); */
+  background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.4) 100%,
+      rgba(255, 255, 255, 0.3) 40%
+    ),
+    url("../img/homepage 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.banner-text {
+  color: white;
+  padding: 0.5em 2em;
+  width: 40%;
+  font-size: 14px;
+  text-align: left;
+  font-family: poppins;
+}
+
+.banner-header {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
