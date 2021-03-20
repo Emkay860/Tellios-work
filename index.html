@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tellios | Home</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="banner-display-container">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active">Home</a>
+                <a href="signup.html">Sign Up</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+                <a href="" class="icon" onclick="toggleNavbar(event)"> <i class="fa fa-bars"></i> </a>
+
+                <p id="navbar-brand">Zetta Hotels</p>
+            </div>
+        </nav>
+        <section class="banner-container">
+            <div class="banner-text">
+                <h1 class="banner-header">
+                    The best hotel you will ever need
+                </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. </p>
+            </div>
+        </section>
+
+    </div>
+    <form name="search-form" class="search-form" id="search-form" method="POST">
+        <section class="form-section">
+            <div class="form-group">
+                <label for="check_in_date" class="input-label">check in date</label>
+                <input name="check_in_date" type="text" id="check_in_date" required>
+            </div>
+            <div class="form-group">
+                <label for="check_out_date" class="input-label">check out date</label>
+                <input name="check_out_date" id="check_out_date" type="text" required>
+            </div>
+            <div class="form-group">
+                <label for="rooms" class="input-label">Email</label>
+                <input name="rooms" type="text" id="rooms" required>
+            </div>
+            <p id="err-text" class="text-red"></p>
+
+            <button type="submit" name="btn-signup" id="btn-signup" class="btn-submit"><img
+                    src="./img/send.svg"></img></button>
+        </section>
+    </form>
+
+    <article class="container">
+        <section class="article-section">
+            <div class="article-text">
+                <p class="text-purple about-us-text">
+                    ABOUT US
+                </p>
+                <h1 class="article-heading">Trust and quality are our atuus</h1>
+                <p class="article-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p class="article-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <button type="submit" name="btn-readmore" id="btn-readmore" class="btn">read more <img class="btn-icon"
+                        src="./img/arrow-right(2).svg" /></button>
+            </div>
+            <img src="img/Group 12.png" class="article-img" />
+        </section>
+
+    </article>
+    <section class="features-section">
+        <div class="features-text-container">
+            <p class="text-purple about-us-text">
+                ABOUT US
+            </p>
+            <h1 class="feature-heading">We bring you the finest details</h1>
+        </div>
+        <div class="row">
+            <div class="col bg-white text-center">
+                <div class="purple-circle"><img src="img/001-hotel-1.svg" alt="hotel-img" /></div>
+                <h3>Free Wifi to stay connected</h3>
+                <p class="feature-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat.</p>
+            </div>
+            <div class="col bg-white text-center">
+                <div class="purple-circle"><img src="img/001-hotel-1.svg" alt="hotel-img" /></div>
+                <h3>Free Wifi to stay connected</h3>
+                <p class="feature-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat.</p>
+            </div>
+            <div class="col bg-white text-center">
+                <div class="purple-circle"><img src="img/001-hotel-1.svg" alt="hotel-img" /></div>
+                <h3>Free Wifi to stay connected</h3>
+                <p class="feature-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat.</p>
+            </div>
+            <div class="col bg-white text-center">
+                <div class="purple-circle"><img src="img/001-hotel-1.svg" alt="hotel-img" /></div>
+                <h3>Free Wifi to stay connected</h3>
+                <p class="feature-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

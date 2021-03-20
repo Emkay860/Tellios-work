@@ -1,0 +1,261 @@
+html {
+  height: 100%;
+}
+
+.banner-display-container {
+  height: 600px;
+  /* background-image: url("../img/North%20Oceans_%20Effectively%20Handling%20Your%20Freight%20Forwarding%20Operations.jpg"); */
+  background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.4) 100%,
+      rgba(255, 255, 255, 0.3) 40%
+    ),
+    url("../img/homepage 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.banner-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.form-section {
+  max-width: 80%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin: auto;
+}
+
+.form-group {
+  width: 80%;
+  font-family: Abel;
+  /* text-align: center; */
+  font-weight: 700;
+  color: #484545;
+  padding: 10px;
+}
+
+.icon-img {
+  height: auto;
+  width: 100%;
+  max-height: 200px;
+}
+
+.article-section {
+  padding: 0.5em;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.article-text {
+  padding: none;
+  width: 45%;
+}
+
+.article-description {
+  font-size: 14px;
+  font-family: Anaheim;
+  text-align: left;
+  color: #000000;
+}
+
+.article-img {
+  width: 45%;
+  height: auto;
+}
+
+.article-heading {
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  margin: 0.3em 0px;
+}
+
+.about-us-text {
+  margin: 0px;
+}
+
+.banner-text {
+  color: white;
+  padding: 0.5em 4em;
+  width: 40%;
+  font-size: 12px;
+  text-align: left;
+  font-family: poppins;
+}
+.banner-header {
+  color: white;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: Abel;
+  font-size: 3em;
+  font-style: italic;
+  text-align: center;
+  color: #3a3838;
+  font-weight: lighter;
+}
+
+hr {
+  border: 1 solid #000000;
+  margin: auto;
+  width: 50%;
+}
+
+.btn-submit {
+  width: 15%;
+  background-color: #5863f8;
+  color: white;
+  border: 1px solid #5863f8;
+  margin-top: 1.4em;
+  margin-left: 1em;
+}
+
+.btn-submit:hover {
+  background-color: #2d36c0;
+  color: white;
+  border: 1px solid #5863f8;
+}
+
+.btn {
+  width: 30%;
+  background-color: #5863f8;
+  color: white;
+  border: 1px solid #5863f8;
+  margin-top: 1.4em;
+  padding: 0.9em;
+}
+
+.btn-icon {
+  height: 10px;
+  padding-left: 0.4em;
+}
+
+.search-form {
+  background-color: white;
+  margin: -50px auto 1px auto;
+  width: 80%;
+  padding: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  z-index: 9999;
+}
+
+.text-purple {
+  color: #5863f8;
+}
+
+.row {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  margin: auto;
+}
+.col {
+  width: 15%;
+  font-family: Abel;
+  /* text-align: center; */
+  color: #484545;
+  padding: 2em;
+}
+
+.features-section {
+  height: 600px;
+  /* background-image: url("../img/North%20Oceans_%20Effectively%20Handling%20Your%20Freight%20Forwarding%20Operations.jpg"); */
+  background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.7) 100%,
+      rgba(255, 255, 255, 0.3) 40%
+    ),
+    url("../img/chris-lee-70l1tDAI6rM-unsplash.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding-bottom: 2em;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.feature-text {
+  color: rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 70px;
+}
+
+.feature-heading {
+  color: white;
+  font-size: 2em;
+  margin: 0.3em 0px;
+}
+
+.features-text-container {
+  margin: auto;
+  padding: 4em 0;
+  width: 80%;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.purple-circle {
+  border-radius: 50%;
+  background-color: #5863f8;
+  display: inline-block;
+  padding: 0.5em;
+}
+@media (max-width: 599px) {
+  .banner-text {
+    width: 90%;
+    text-align: center;
+  }
+
+  .icon-div {
+    width: 70%;
+  }
+
+  .icon-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .article-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* 
+  .reverse-article-order {
+    flex-direction: column-reverse;
+  } */
+
+  .article-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .article-img {
+    width: 100%;
+    height: auto;
+  }
+}
