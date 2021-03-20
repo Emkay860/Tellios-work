@@ -186,7 +186,7 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  padding-bottom: 2em;
+  padding-bottom: 5em;
   max-width: 100%;
   display: flex;
   flex-direction: column;
@@ -276,6 +276,7 @@ hr {
   flex-direction: row;
   /* align-items: flex-end; */
   justify-content: space-between;
+  height: 400px;
 }
 
 .testimonial-text {
@@ -298,6 +299,7 @@ hr {
   align-items: flex-start;
   justify-content: flex-start;
   margin-bottom: 2em;
+  margin-top: 5em;
 }
 
 .restarant-heading {
@@ -407,6 +409,16 @@ hr {
 .blog-img-responsive {
   max-width: 100%;
   height: auto;
+}
+
+.blog {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.col-4 {
+  width: 28%;
+  margin: none;
 }
 
 @media (max-width: 599px) {
