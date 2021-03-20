@@ -60,6 +60,7 @@ html {
 .article-text {
   padding: none;
   width: 45%;
+  margin: 1em;
 }
 
 .article-description {
@@ -162,7 +163,7 @@ hr {
   flex-direction: row;
   /* align-items: center; */
   justify-content: space-evenly;
-  margin: auto;
+  margin: 0px;
 }
 .col {
   width: 15%;
@@ -173,7 +174,7 @@ hr {
 }
 
 .features-section {
-  height: 600px;
+  height: 500px;
   /* background-image: url("../img/North%20Oceans_%20Effectively%20Handling%20Your%20Freight%20Forwarding%20Operations.jpg"); */
   background-image: linear-gradient(
       45deg,
@@ -189,7 +190,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .feature-text {
   color: rgba(0, 0, 0, 0.2);
@@ -205,7 +206,7 @@ hr {
 }
 
 .features-text-container {
-  margin: auto;
+  margin: 0px auto;
   padding: 4em 0;
   width: 80%;
 }
@@ -224,6 +225,133 @@ hr {
   display: inline-block;
   padding: 0.5em;
 }
+
+.img-row {
+  max-width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  /* margin: 0px; */
+}
+
+.profile-detail {
+  width: 100%;
+  margin: 1em;
+  font-size: 12px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.faded-text {
+  color: #484545;
+}
+
+.bg-gray {
+  background-color: #f8f8f8;
+}
+
+.active {
+  background-color: #5863f8;
+}
+
+.testimonial-container {
+  margin: 0px 0px 0px 3em;
+  padding: 0px 0px 0px 0px;
+  max-width: 100%;
+}
+
+.testimonial-section {
+  /* padding: 0.5em; */
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-end; */
+  justify-content: space-between;
+}
+
+.testimonial-text {
+  padding: 3em;
+  width: 45%;
+  /* margin: 1em; */
+}
+
+.testimonial-img {
+  width: 45%;
+  height: auto;
+  margin-right: 0px;
+}
+
+.restaurant-section {
+  padding-bottom: 3em;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 2em;
+}
+
+.restarant-heading {
+  color: white;
+  font-size: 2em;
+  margin: 0.3em 0px;
+}
+
+.restaurant-img-card {
+  display: flex;
+  flex-direction: row;
+  background-color: #f8f8f8;
+  padding-right: 3em;
+  height: 220px;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn-arrow {
+  width: 10%;
+  height: auto;
+  background-color: #5863f8;
+  color: white;
+  border: 1px solid #5863f8;
+  padding: 0.9em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.restaurant {
+  max-height: 200px;
+  margin: 0.5em;
+  padding: 1em;
+}
+
+.menu-detail {
+  padding: 1em;
+  width: 100%;
+}
+
+.col-2 {
+  width: 45%;
+  /* text-align: center;
+  color: #484545;
+  padding: 2em; */
+}
+
+.restaurant-text-container {
+  margin-left: 10%;
+  padding: 1em 0;
+  width: 50%;
+}
+
 @media (max-width: 599px) {
   .banner-text {
     width: 90%;
