@@ -252,7 +252,7 @@ hr {
 }
 
 .faded-text {
-  color: #484545;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .bg-gray {
