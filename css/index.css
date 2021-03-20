@@ -35,7 +35,7 @@ html {
 
 .form-group {
   width: 80%;
-  font-family: Abel;
+  font-family: "Poppins", sans-serif;
   /* text-align: center; */
   font-weight: 700;
   color: #484545;
@@ -65,7 +65,7 @@ html {
 
 .article-description {
   font-size: 14px;
-  font-family: Anaheim;
+  font-family: "Poppins", sans-serif;
   text-align: left;
   color: #000000;
 }
@@ -91,13 +91,14 @@ html {
   width: 40%;
   font-size: 12px;
   text-align: left;
-  font-family: poppins;
+  font-family: "Poppins", sans-serif;
 }
 
 .banner-header {
   color: white;
-  font-size: 4rem;
-  font-weight: 700;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 0.5em;
 }
 
 /* h2 {
@@ -168,7 +169,7 @@ hr {
 }
 .col {
   width: 15%;
-  font-family: Abel;
+  font-family: "Poppins", sans-serif;
   /* text-align: center; */
   color: #484545;
   padding: 2em;
@@ -277,12 +278,14 @@ hr {
   flex-direction: row;
   /* align-items: flex-end; */
   justify-content: space-between;
-  height: 400px;
+  height: 30%;
 }
 
 .testimonial-text {
   padding: 3em;
   width: 45%;
+  overflow: hidden;
+  text-overflow: ellipsis;
   /* margin: 1em; */
 }
 
@@ -453,7 +456,7 @@ hr {
 
 .col-5 {
   width: 25%;
-  font-family: Abel;
+  font-family: "Poppins", sans-serif;
   /* text-align: center; */
   color: #484545;
   padding: 1em;
@@ -483,7 +486,7 @@ h2 {
 
 .col-6 {
   width: 50%;
-  font-family: Abel;
+  font-family: "Poppins", sans-serif;
   /* text-align: center; */
   color: #484545;
   margin-left: 3em;
