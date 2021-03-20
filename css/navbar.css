@@ -8,7 +8,8 @@
 
 .topnav {
   overflow: hidden;
-  /* background-color: var(--theme-bg); */
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .topnav a {
