@@ -99,14 +99,14 @@ html {
   font-weight: 700;
 }
 
-h2 {
+/* h2 {
   font-family: Abel;
   font-size: 3em;
   font-style: italic;
   text-align: center;
   color: #3a3838;
   font-weight: lighter;
-}
+} */
 
 hr {
   border: 1 solid #000000;
@@ -450,12 +450,33 @@ hr {
   margin: 0px;
 }
 .col-5 {
-  width: 20%;
+  width: 25%;
   font-family: Abel;
   /* text-align: center; */
   color: #484545;
   padding: 2em;
   margin: 2em;
+}
+
+.col-5 h1,
+h2 {
+  color: #ffffff;
+}
+
+.col-5 a {
+  text-decoration: none;
+  color: #5863f8;
+}
+
+.col-5 ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.col-5 li {
+  margin-top: 0.5em;
+  color: #ffffff;
 }
 
 @media (max-width: 599px) {
