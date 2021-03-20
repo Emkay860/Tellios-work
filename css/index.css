@@ -162,7 +162,7 @@ hr {
   display: flex;
   flex-direction: row;
   /* align-items: center; */
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   margin: 0px;
 }
 .col {
@@ -171,6 +171,7 @@ hr {
   /* text-align: center; */
   color: #484545;
   padding: 2em;
+  margin: 2em;
 }
 
 .features-section {
@@ -310,7 +311,7 @@ hr {
   flex-direction: row;
   background-color: #f8f8f8;
   padding-right: 3em;
-  height: 220px;
+  height: 150px;
   position: relative;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -330,26 +331,82 @@ hr {
 
 .restaurant {
   max-height: 200px;
-  margin: 0.5em;
-  padding: 1em;
+  /* margin: 0.5em; */
+  margin-left: 4%;
+  padding-bottom: 0.2em;
 }
 
 .menu-detail {
   padding: 1em;
   width: 100%;
+  font-size: 14px;
 }
 
 .col-2 {
   width: 45%;
+  margin: 1em;
   /* text-align: center;
   color: #484545;
   padding: 2em; */
 }
 
 .restaurant-text-container {
-  margin-left: 10%;
+  margin-left: 5%;
   padding: 1em 0;
-  width: 50%;
+  width: 35%;
+}
+
+.blog-section {
+  padding-bottom: 3em;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 2em;
+}
+
+.blog-text-container {
+  margin-left: 5%;
+  padding: 1em 0;
+  width: 35%;
+}
+
+.col-3 {
+  width: 28%;
+  margin: 1em;
+  /* text-align: center;
+  color: #484545;
+  padding: 2em; */
+}
+
+.blog-img-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.blog-detail {
+  padding: 1em;
+  width: 70%;
+  font-size: 14px;
+  margin: auto;
+}
+
+.blog {
+  display: flex;
+  justify-content: center;
+}
+
+.blog-img-responsive {
+  max-width: 100%;
+  height: auto;
 }
 
 @media (max-width: 599px) {
