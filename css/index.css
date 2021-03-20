@@ -449,13 +449,14 @@ hr {
   /* justify-content: space-evenly; */
   margin: 0px;
 }
+
 .col-5 {
   width: 25%;
   font-family: Abel;
   /* text-align: center; */
   color: #484545;
-  padding: 2em;
-  margin: 2em;
+  padding: 1em;
+  margin: 1em;
 }
 
 .col-5 h1,
@@ -477,6 +478,23 @@ h2 {
 .col-5 li {
   margin-top: 0.5em;
   color: #ffffff;
+}
+
+.col-6 {
+  width: 50%;
+  font-family: Abel;
+  /* text-align: center; */
+  color: #484545;
+  margin-left: 3em;
+}
+
+.copywrite-text {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: flex-end;
+  margin: 0px;
 }
 
 @media (max-width: 599px) {
