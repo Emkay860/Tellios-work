@@ -341,7 +341,6 @@ hr {
 }
 
 .restaurant {
-  max-height: 200px;
   margin: auto;
   padding-bottom: 0.2em;
 }
@@ -577,6 +576,11 @@ h2 {
     margin: auto;
     padding: 1em 0;
     width: 80%;
+  }
+
+  .restaurant-img {
+    width: 40%;
+    height: auto;
   }
 
   .blog-text-container {
