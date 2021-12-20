@@ -10,7 +10,7 @@ html {
       rgba(0, 0, 0, 0.4) 100%,
       rgba(255, 255, 255, 0.3) 40%
     ),
-    url("../img/homepage 1.png");
+    url('../img/homepage 1.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -35,7 +35,7 @@ html {
 
 .form-group {
   width: 80%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   /* text-align: center; */
   font-weight: 700;
   color: #484545;
@@ -65,7 +65,7 @@ html {
 
 .article-description {
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: left;
   color: #000000;
 }
@@ -91,7 +91,7 @@ html {
   width: 50%;
   font-size: 12px;
   text-align: left;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .banner-header {
@@ -170,7 +170,7 @@ hr {
 
 .col {
   width: 15%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   /* text-align: center; */
   color: #484545;
   padding: 1em;
@@ -189,7 +189,7 @@ hr {
       rgba(0, 0, 0, 0.7) 100%,
       rgba(255, 255, 255, 0.3) 40%
     ),
-    url("../img/chris-lee-70l1tDAI6rM-unsplash.png");
+    url('../img/chris-lee-70l1tDAI6rM-unsplash.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -425,7 +425,11 @@ hr {
 }
 
 .col-4 {
-  width: 28%;
+  /* width: 50%; */
+}
+.col-4 img {
+  width: 100%;
+  height: 400px;
 }
 
 .gallery-section {
@@ -444,11 +448,11 @@ hr {
 }
 
 .gallery {
-  max-width: 100%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   /* align-items: center; */
-  /* justify-content: space-evenly; */
+  justify-content: flex-start;
   margin: 0px;
 }
 
@@ -467,7 +471,7 @@ hr {
 
 .col-5 {
   width: 25%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   /* text-align: center; */
   color: #484545;
   padding: 1em;
@@ -497,7 +501,7 @@ h2 {
 
 .col-6 {
   width: 50%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   /* text-align: center; */
   color: #484545;
   margin-left: 3em;
